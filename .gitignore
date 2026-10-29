@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+
+# Virtual envs
+.venv/
+venv/
+
+# Training artifacts
+weights/
+runs/
+*.pt
+*.pth
+!weights/.gitkeep
+
+# Data (never commit)
+data/
+datasets/
+*.zip
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
